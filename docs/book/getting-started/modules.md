@@ -140,7 +140,7 @@ for the `Album` module that are stored in our `view/` directory.
 
 We now need to tell the `ModuleManager` that this new module exists. This is
 done in the application’s `config/modules.config.php` file which is provided
-by the skeleton application. Update this file so that the array it returns
+in the skeleton application's root directory. Update this file so that the array it returns
 contains the `Album` module as well, so the file now looks like this:
 
 (Changes required are highlighted using comments; original comments from the
